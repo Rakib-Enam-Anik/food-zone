@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../Assets/john-doe-image.png";
+import ProfilePic from "../Assets/EmonVai.png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -9,15 +9,15 @@ const Testimonial = () => {
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Users of SendMeeting enjoy a streamlined and efficient meeting experience. They benefit from simplified invitations,
+         effortless response management, easy attendance tracking, and overall improved communication and coordination within their organizations.
         </p>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        "SendMeeting has greatly improved our meeting efficiency, simplifying invitations, responses, and attendance tracking. 
+        It's a game-changer for our organization."
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
@@ -26,7 +26,7 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>John Doe</h2>
+        <h2>Asiqul Islam</h2>
       </div>
     </div>
   );

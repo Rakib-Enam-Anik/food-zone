@@ -1,24 +1,24 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import PickMeals from "../Assets/invitation.png";
+import ChooseMeals from "../Assets/response.png";
+import DeliveryMeals from "../Assets/attendance.png";
 
 const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Invitation",
+      text: "SendMeeting offers a streamlined invitation process, simplifying how users send meeting invitations to ensure efficient communication and scheduling.",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Response",
+      text: "SendMeeting provides a convenient platform for users to receive and manage responses to meeting invitations, enhancing communication and coordination within organizations. ",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      title: "Attendance ",
+      text: "With SendMeeting, tracking attendance for your meetings has never been easier. This feature ensures that organizations can keep a close eye on who's present, improving overall meeting efficiency and accountability.",
     },
   ];
   return (
@@ -27,8 +27,10 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        This app simplifies meeting management by centralizing invitations, 
+        responses, and attendance tracking,reducing scheduling conflicts and 
+        missed meetings for organizations.
+
         </p>
       </div>
       <div className="work-section-bottom">
