@@ -15,9 +15,8 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-         
-          Send Meeting is powerful scheduling engine
-        </h1>
+        Send Meeting is designed to be easy to use
+         </h1>
         <p className="primary-text">
           The app allows users to send meeting invitations, receive responses, 
           and track attendance, all from one central location.

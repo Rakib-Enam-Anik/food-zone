@@ -8,7 +8,7 @@ const Work = () => {
     {
       image: PickMeals,
       title: "Invitation",
-      text: "SendMeeting offers a streamlined invitation process, simplifying how users send meeting invitations to ensure efficient communication and scheduling.",
+      text: "SendMeeting offers a streamlined invitation process,simplifying how users send meeting invitations to ensure efficient communication and scheduling. Its function is easy to invite others to a meeting. ",
     },
     {
       image: ChooseMeals,

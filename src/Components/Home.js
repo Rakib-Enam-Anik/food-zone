@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-          Send Meeting is designed to be easy to use.
+          Send Meeting is powerful scheduling engine
           </h1>
           <p className="primary-text">
             Send Meeting is a tool developed by Teamexus Solutions Ltd to automate 
