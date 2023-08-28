@@ -439,3 +439,8 @@ nav {
     display: none;
   }
 }
+
+.navbar.fixed {
+  background-color: white;
+  transition: .3s ease-in-out;
+}
