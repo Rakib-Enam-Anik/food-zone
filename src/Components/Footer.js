@@ -9,8 +9,9 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="footer-section-one">
-        <div className="footer-logo-container">
+        <div className="start">
           <img src={Logo} alt="" />
+          <p className="text" >SendMeeting</p>
         </div>
         <div className="footer-icons">
           <BsTwitter />

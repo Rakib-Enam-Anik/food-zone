@@ -22,7 +22,7 @@ const Home = () => {
             the meeting scheduling process.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Learn More <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">
