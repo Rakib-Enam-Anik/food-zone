@@ -46,6 +46,17 @@ const Navbar = () => {
 
 
   ];
+
+  const [ fix, setFix] = useState(false)
+
+  function setFixed(){
+    if (window.scrollY >= 392){
+      setFix(true)
+    }else {
+      setFix(false)
+    }
+  }
+  window.addEventListener("scroll", setFixed)
   return (
     <BrowserRouter>
     <nav>
