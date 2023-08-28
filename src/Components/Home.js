@@ -13,7 +13,7 @@ const Home = () => {
           <img src={BannerBackground} alt="" />
          
         </div>
-        <div className="home-text-section">
+        <div className="home-text-section" >
           <h1 className="primary-heading">
           Send Meeting is powerful scheduling engine
           </h1>

@@ -15,6 +15,9 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import { HashLink as Link } from "react-router-hash-link";
+import { BrowserRouter } from "react-router-dom";
+
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -44,6 +47,7 @@ const Navbar = () => {
 
   ];
   return (
+    <BrowserRouter>
     <nav>
       <div className="start">
         <img src={Logo} alt="" />
@@ -51,14 +55,16 @@ const Navbar = () => {
       </div>
       <div className="end">
         <div className="navbar-links-container">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Testimonials</a>
-          <a href="">Contact</a>
+        <a href="">Home</a>
+        <Link to='#About' smooth> About </Link>
+        <Link to='#Testimonial' smooth> Testimonials </Link>
+        <Link to='#Contact' smooth> Contact</Link>
          
           
         </div>
+       
       </div>
+     
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div>
@@ -83,6 +89,7 @@ const Navbar = () => {
         </Box>
       </Drawer>
     </nav>
+    </BrowserRouter>
   );
 };
 

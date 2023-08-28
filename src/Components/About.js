@@ -13,7 +13,7 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading" id="About">About</p>
         <h1 className="primary-heading">
         Send Meeting is designed to be easy to use
          </h1>
