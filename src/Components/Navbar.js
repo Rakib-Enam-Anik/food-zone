@@ -46,9 +46,21 @@ const Navbar = () => {
 
 
   ];
+
+  const [ fix, setFix] = useState(false)
+
+  function setFixed(){
+    if (window.scrollY >= 400){
+      setFix(true)
+    }else {
+      setFix(false)
+    }
+  }
+  window.addEventListener("scroll", setFixed)
+  
   return (
     <BrowserRouter>
-    <nav>
+    <nav className={fix ? 'navbar fixed' : 'navbar'}>
       <div className="start">
         <img src={Logo} alt="" />
         <p className="text" >SendMeeting</p>
