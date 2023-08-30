@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
       <div align="center" className="footer-section-bottom">
-        <p>Design & Developed by <a href="http://www.teamexus.com" target="blank">Teamexus Solutions Ltd.</a> | Copyright © 2023 - All Rights Reserved.</p>
+        <p>Design & Developed by <a href="http://www.teamexus.com" target="blank">Teamexus Solutions Ltd.</a> | Copyright © {new Date().getFullYear()}- All Rights Reserved.</p>
       </div>
     </div>
   );
